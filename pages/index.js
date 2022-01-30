@@ -1,10 +1,6 @@
-import { useState } from 'react'
 import Head from 'next/head'
-import Image from 'next/image'
-import { motion } from 'framer-motion'
 import styles from '../styles/Home.module.css'
-import { Icon } from '../components/Icon/Icon'
-import Card from '../components/Card/Card'
+import { Me, Gear } from '../components/Icons'
 
 export default function Home() {
   return (
@@ -18,18 +14,9 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.phone}>
           <div className={styles.grid}>
-            <Icon></Icon>
-            <Icon></Icon>
-            <Icon></Icon>
-
-            {/* <Icon onClick={() => setIsOpen((isOpen) => !isOpen)}></Icon>
-            <Icon onClick={() => setIsOpen((isOpen) => !isOpen)}></Icon>
-            <Icon onClick={() => setIsOpen((isOpen) => !isOpen)}></Icon>
-            <Icon onClick={() => setIsOpen((isOpen) => !isOpen)}></Icon>
-            <Icon onClick={() => setIsOpen((isOpen) => !isOpen)}></Icon>
-            <Icon onClick={() => setIsOpen((isOpen) => !isOpen)}></Icon>
-            <Icon onClick={() => setIsOpen((isOpen) => !isOpen)}></Icon>
-            <Icon onClick={() => setIsOpen((isOpen) => !isOpen)}></Icon> */}
+            <Me />
+            <Gear />
+            <Gear />
           </div>
         </div>
       </main>
