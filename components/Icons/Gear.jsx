@@ -2,7 +2,6 @@ import { motion } from 'framer-motion'
 import { useRouter } from 'next/router'
 import React, { useState } from 'react'
 import styles from '../../styles/Home.module.css'
-import { Profile } from '../Profile/Profile'
 
 const Gear = ({}) => {
   const [isOpen, setIsOpen] = useState(false)
@@ -26,7 +25,7 @@ const Gear = ({}) => {
         whileHover="hover"
         variants={variants}
         className={styles.icon}
-        style={{ background: '#e99b6e' }}
+        style={{ background: '#CA9AF8' }}
         onClick={handleOnClick}
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
@@ -43,7 +42,7 @@ const Gear = ({}) => {
           <metadata>Created by potrace 1.15, written by Peter Selinger 2001-2017</metadata>
           <g transform="translate(0.000000,1278.000000) scale(0.100000,-0.100000)" fill="#58413C" stroke="none">
             <motion.path
-              animate={hovered ? { rotate: 360 } : { rotate: 0 }}
+              animate={hovered ? { rotate: -360 } : { rotate: 0 }}
               transition={hovered ? { repeat: Infinity, duration: 3 } : {}}
               d="M7235 12766 c-16 -8 -42 -26 -56 -42 -14 -16 -153 -267 -309 -559
                 -156 -291 -298 -553 -316 -582 -53 -84 -49 -83 -328 -94 l-247 -11 -53 26

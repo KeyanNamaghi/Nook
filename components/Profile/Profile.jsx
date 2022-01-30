@@ -87,7 +87,7 @@ const Profile = () => {
                   ></motion.path>
                 </g>
                 <motion.g
-                  animate={hovered ? { x: 0, y: [0, -1, 0], roatate: 100 } : { x: 0, y: 0 }}
+                  animate={hovered ? { x: 0, y: [0, -1, 0] } : { x: 0, y: 0 }}
                   transition={hovered ? { repeat: Infinity, duration: 0.5 } : {}}
                   id="Eyebrow/Natural/Default-Natural"
                   fillOpacity="0.599999964"

@@ -1,4 +1,4 @@
 import { Gear } from './Gear'
 import { Me } from './Me'
-
-export { Gear, Me }
+import { Tinder } from './Tinder'
+export { Gear, Me, Tinder }
