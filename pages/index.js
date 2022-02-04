@@ -13,6 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.phone}>
+          <h1 className={styles.title}>NookPhone</h1>
           <div className={styles.grid}>
             <Me />
             <Gear />
