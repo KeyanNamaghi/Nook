@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion'
 import { useState } from 'react'
-import styles from '../../styles/Home.module.css'
 
 const Profile = () => {
   const [hovered, setHovered] = useState(false)
@@ -9,13 +8,12 @@ const Profile = () => {
     <motion.svg
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      width="264px"
-      height="280px"
+      width="75px"
+      height="70px"
       viewBox="0 0 264 280"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
-      className={styles.me}
     >
       <defs>
         <circle id="react-path-1" cx="120" cy="120" r="120"></circle>
