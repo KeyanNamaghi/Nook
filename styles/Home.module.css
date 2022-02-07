@@ -53,6 +53,8 @@
   width: 75px;
   height: 75px;
   z-index: 1;
+  justify-content: center;
+  align-items: center;
 }
 
 .iconContainer {
@@ -70,18 +72,6 @@
   left: 0;
   right: 0;
   top: 5px;
-  text-align: center;
-}
-
-.gear {
-  position: absolute;
-  height: 40px;
-  width: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  top: 17px;
   text-align: center;
 }
 

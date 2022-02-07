@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { Me, Gear, Tinder, Contact, Welsh, Popeth } from '../components/Icons'
+import { Me, Gear, Tinder, Contact, Welsh, Popeth, Since } from '../components/Icons'
 
 export default function Home() {
   return (
@@ -21,6 +21,7 @@ export default function Home() {
             <Contact />
             <Welsh />
             <Popeth />
+            <Since />
           </div>
         </div>
       </main>

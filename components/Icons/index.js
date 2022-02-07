@@ -4,5 +4,5 @@ import { Me } from './Me'
 import { Tinder } from './Tinder'
 import { Welsh } from './Welsh'
 import { Popeth } from './Popeth'
-
-export { Contact, Gear, Me, Tinder, Welsh, Popeth }
+import { Since } from './Since'
+export { Contact, Gear, Me, Tinder, Welsh, Popeth, Since }
