@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { Me, Gear, Tinder, Contact, Welsh, Popeth, Since } from '../components/Icons'
+import WhatsAppWidget from 'react-whatsapp-widget'
+import 'react-whatsapp-widget/dist/index.css'
 
 export default function Home() {
   return (
@@ -22,6 +24,10 @@ export default function Home() {
             <Welsh />
             <Popeth />
             <Since />
+            <WhatsAppWidget phoneNumber="447572719181" />
+            {/* <a href="https://wa.me/447572719181" target="_parent" rel="noopener noreferrer">
+              <i className="fa fa-whatsapp whatsapp-icon"></i>
+            </a> */}
           </div>
         </div>
       </main>
