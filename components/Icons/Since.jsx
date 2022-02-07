@@ -18,7 +18,6 @@ const Since = ({}) => {
   const minutes = 6 * new Date().getMinutes()
   const hours = 30 * ((new Date().getHours() + new Date().getMinutes() / 60) % 12) - 90
 
-  console.log({ hours, minutes })
   const handleOnClick = () => {
     setIsOpen(!isOpen)
     setTimeout(() => router.push('/test'), 1000)

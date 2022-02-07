@@ -38,7 +38,9 @@ const Popeth = ({}) => {
             fill="#FFD700"
             stroke="black"
             animate={
-              hovered ? { x: 0, y: [0, -15, 0, 1, 0, 0, 0, 0, 0, 0], fill: ['#daa520', '#FFD700'] } : { x: 0, y: 0 }
+              hovered
+                ? { x: 0, y: [0, -15, 0, 1, 0, 0, 0, 0, 0, 0], fill: ['#daa520', '#FFD700', '#FFD700'] }
+                : { x: 0, y: 0 }
             }
             transition={hovered ? { repeat: Infinity, duration: 1.5, ease: 'linear', delay: 0.2 } : {}}
           />
@@ -49,7 +51,9 @@ const Popeth = ({}) => {
             fill="#90EE90"
             stroke="black"
             animate={
-              hovered ? { x: 0, y: [0, -10, 0, 1, 0, 0, 0, 0, 0, 0], fill: ['#32cd32', '#90EE90'] } : { x: 0, y: 0 }
+              hovered
+                ? { x: 0, y: [0, -10, 0, 1, 0, 0, 0, 0, 0, 0], fill: ['#32cd32', '#90EE90', '#90EE90'] }
+                : { x: 0, y: 0 }
             }
             transition={hovered ? { repeat: Infinity, duration: 1.5, ease: 'linear', delay: 0.4 } : {}}
           />
@@ -60,7 +64,9 @@ const Popeth = ({}) => {
             fill="#FA8072"
             stroke="black"
             animate={
-              hovered ? { x: 0, y: [0, -10, 0, 1, 0, 0, 0, 0, 0, 0], fill: ['#dc143c', '#FA8072'] } : { x: 0, y: 0 }
+              hovered
+                ? { x: 0, y: [0, -10, 0, 1, 0, 0, 0, 0, 0, 0], fill: ['#dc143c', '#FA8072', '#FA8072'] }
+                : { x: 0, y: 0 }
             }
             transition={hovered ? { repeat: Infinity, duration: 1.5, ease: 'linear' } : {}}
           />

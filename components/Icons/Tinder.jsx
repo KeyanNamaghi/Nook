@@ -32,7 +32,7 @@ const Tinder = ({}) => {
       >
         <svg width="75" height="75" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="9" y="9" width="35" height="47" rx="5" fill="#FCEFDF" />
-          <rect x="13" y="13" width="27" height="39" rx="1" fill="#FA9A6A" />
+          <rect x="13" y="13" width="27" height="39" rx="1" fill="#58413C" />
           <motion.path
             animate={hovered ? { y: 0, x: [-10, -35, -10] } : { x: 0, y: 0 }}
             transition={hovered ? { repeat: Infinity, duration: 1 } : {}}
